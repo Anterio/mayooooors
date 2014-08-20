@@ -11,7 +11,9 @@
 
 @interface MSARequest : NSObject
 
-+ (NSArray *) findMayorshipsWithLocation:(CLLocation *) location;
-+ (NSArray *) findVenuesWithLocation: (CLLocation *) location;
++ (void) findMayorshipsWithLocation:(CLLocation *) location completion: (void(^)(NSArray * mayors))completion;
+//+ (NSArray *) findVenuesWithLocation: (CLLocation *) location;
++(void)findVenuesWithLocation: (CLLocation *)location completion:(void(^)(NSArray * venues))completion;
+
 
 @end

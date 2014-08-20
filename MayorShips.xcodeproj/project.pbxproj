@@ -23,6 +23,9 @@
 		8E1BB7A019A38716001F4F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E1BB79E19A38716001F4F89 /* InfoPlist.strings */; };
 		8E1BB7A219A38716001F4F89 /* MayorShipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BB7A119A38716001F4F89 /* MayorShipsTests.m */; };
 		8E1BB7AD19A38C97001F4F89 /* MSARequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BB7AC19A38C97001F4F89 /* MSARequest.m */; };
+		8EBA700C19A3E3030069DB8B /* MSATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA700B19A3E3030069DB8B /* MSATableViewCell.m */; };
+		8EBA700F19A40F0B0069DB8B /* MSAData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBA700E19A40F0B0069DB8B /* MSAData.m */; };
+		8EBA701119A4DCAD0069DB8B /* game@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBA701019A4DCAD0069DB8B /* game@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,11 @@
 		8E1BB7A119A38716001F4F89 /* MayorShipsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MayorShipsTests.m; sourceTree = "<group>"; };
 		8E1BB7AB19A38C97001F4F89 /* MSARequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSARequest.h; sourceTree = "<group>"; };
 		8E1BB7AC19A38C97001F4F89 /* MSARequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSARequest.m; sourceTree = "<group>"; };
+		8EBA700A19A3E3030069DB8B /* MSATableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSATableViewCell.h; sourceTree = "<group>"; };
+		8EBA700B19A3E3030069DB8B /* MSATableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSATableViewCell.m; sourceTree = "<group>"; };
+		8EBA700D19A40F0B0069DB8B /* MSAData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSAData.h; sourceTree = "<group>"; };
+		8EBA700E19A40F0B0069DB8B /* MSAData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSAData.m; sourceTree = "<group>"; };
+		8EBA701019A4DCAD0069DB8B /* game@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,11 @@
 		8E1BB76719A38715001F4F89 = {
 			isa = PBXGroup;
 			children = (
+				8EBA701019A4DCAD0069DB8B /* game@2x.png */,
+				8EBA700D19A40F0B0069DB8B /* MSAData.h */,
+				8EBA700E19A40F0B0069DB8B /* MSAData.m */,
+				8EBA700A19A3E3030069DB8B /* MSATableViewCell.h */,
+				8EBA700B19A3E3030069DB8B /* MSATableViewCell.m */,
 				8E1BB7AE19A38CA7001F4F89 /* Random */,
 				8E1BB7AB19A38C97001F4F89 /* MSARequest.h */,
 				8E1BB7AC19A38C97001F4F89 /* MSARequest.m */,
@@ -248,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1BB78F19A38716001F4F89 /* Images.xcassets in Resources */,
+				8EBA701119A4DCAD0069DB8B /* game@2x.png in Resources */,
 				8E1BB77E19A38716001F4F89 /* InfoPlist.strings in Resources */,
 				8E1BB78719A38716001F4F89 /* Main.storyboard in Resources */,
 			);
@@ -269,7 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E1BB78D19A38716001F4F89 /* MSASecondViewController.m in Sources */,
+				8EBA700C19A3E3030069DB8B /* MSATableViewCell.m in Sources */,
 				8E1BB7AD19A38C97001F4F89 /* MSARequest.m in Sources */,
+				8EBA700F19A40F0B0069DB8B /* MSAData.m in Sources */,
 				8E1BB78419A38716001F4F89 /* MSAAppDelegate.m in Sources */,
 				8E1BB78019A38716001F4F89 /* main.m in Sources */,
 				8E1BB78A19A38716001F4F89 /* MSAFirstViewController.m in Sources */,
@@ -477,6 +493,7 @@
 				8E1BB7A719A38716001F4F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E1BB7A819A38716001F4F89 /* Build configuration list for PBXNativeTarget "MayorShipsTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +502,7 @@
 				8E1BB7AA19A38716001F4F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

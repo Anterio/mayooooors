@@ -4,7 +4,6 @@
 //
 //  Created by Arthur Boia on 8/19/14.
 //  Copyright (c) 2014 Arthur Boia. All rights reserved.
-//
 
 #import "MSASecondViewController.h"
 
@@ -17,7 +16,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+
+
 }
 
 - (void)didReceiveMemoryWarning

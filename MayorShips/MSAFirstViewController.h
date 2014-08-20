@@ -10,5 +10,5 @@
 
 @interface MSAFirstViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITableView *mayorList;
-
+@property (nonatomic) NSDictionary * mayorInfo;
 @end
